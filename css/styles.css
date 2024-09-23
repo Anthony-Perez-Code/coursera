@@ -1,36 +1,69 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+#header-nav {
+	background-color: lightgrey;
+	border-radius: 0;
+	border-bottom: 3px solid grey;
+	color: black;
 }
 
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  transition: opacity 0.5s;
+.navbar{
+  background-color: lightgrey;
+  font-family: cursive;
+  border-bottom: 3px solid grey;
+  margin-bottom: 0px;
 }
 
-.navbar-hidden {
-  transition: top 0.3s;
+.navbar-default .navbar-brand{
+    color: black;
 }
 
-#navbar-menu {
-  .nav-item:first-child {
-      margin-top: 15px;
-  }
-
-  .nav-item {
-      border: 2px solid #000;
-      border-radius: 5px;
-      margin: 5px 0;
-      background-color: #dd7b0c7e;
-  }
+.navbar-brand{
+  color: black;
+  font-size:175%;
 }
 
-.bg-section {
-  background-color: #dd7b0c41;
-  ;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color:black;
 }
 
-.text-justify {
-  text-align: justify;
+#nav-list {
+  font-family: cursive;
+  color: black;
+  margin-top: 00px;
+  background-color:white;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover {
+
+}
+
+#nav-list li {
+  border-bottom: 1px solid black;
+}
+
+
+.cont {
+  position: relative;
+  padding: 20px;
+}
+
+.box {
+  position: relative;
+  border: 3px solid black;
+  width: 100%;
+  color: black;
+  overflow: hidden;
+  background-color: lightgrey;
+}
+
+.text {
+  position: relative;
+  margin:10px;
+  padding-top: 30px;
 }
